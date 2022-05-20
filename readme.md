@@ -1,6 +1,6 @@
 # Deno 🦕 + Tauri
 
-Starter template to build a Tauri app using Deno with esbuild to bundle the frontend with React.
+Starter template for Tauri, bundling the frontend made with React, using Deno with esbuild. 
 
 Prerequisites:
 - [Rust v1.60](https://www.rust-lang.org/)
