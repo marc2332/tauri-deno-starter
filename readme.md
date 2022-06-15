@@ -1,6 +1,13 @@
 # Deno 🦕 + Tauri
 
-Starter template for Tauri, bundling the frontend made with React using Deno with esbuild. 
+Starter template for Tauri, bundling the frontend made with React using Deno with esbuild.
+
+You can use TypeScript or JavaScript. With React or any other library, or just vanilla, with no extra steps.
+
+- `src-tauri`: Rust backend
+- `www`: Web frontend
+- `build.ts`: Script to build your frontend
+- `bundle.ts`: Script to bundle your frontend while developing
 
 Prerequisites:
 - [Rust](https://www.rust-lang.org/)
@@ -16,4 +23,16 @@ cargo tauri dev
 Building:
 ```shell
 cargo tauri build
+```
+
+Formatting:
+```shell
+deno fmt www
+cargo fmt
+```
+
+Linting:
+```shell
+deno lint www
+cargo clippy
 ```
