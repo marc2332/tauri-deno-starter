@@ -12,7 +12,7 @@ You can use TypeScript or JavaScript. With React or any other library, or just v
 Prerequisites:
 - [Rust](https://www.rust-lang.org/)
 - [Deno](https://deno.land/)
-- [Tauri](https://tauri.studio/v1/guides/getting-started/beginning-tutorial#alternatively-install-tauri-cli-as-a-cargo-subcommand)
+- [Tauri](https://tauri.app/v1/api/cli)
 - [Tauri os-specific dependencies](https://tauri.studio/v1/guides/getting-started/prerequisites#installing)
 
 Development:
