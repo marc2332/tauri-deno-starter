@@ -9,8 +9,8 @@ async function watch() {
     bundle: true,
     format: "esm",
     define: {
-      "__USE_LIVE_RELOAD": "true"
-    }
+      "__USE_LIVE_RELOAD": "true",
+    },
   });
 
   const serve = await ctx.serve({
@@ -18,8 +18,8 @@ async function watch() {
     servedir: "./www",
   });
 
-  console.log(`Serving internally on ${serve.host}:${serve.port}`)
-  console.log('Watching...');
+  console.log(`Serving internally on ${serve.host}:${serve.port}`);
+  console.log("Watching...");
   await ctx.watch();
 }
 

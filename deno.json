@@ -1,9 +1,9 @@
 {
-    "compilerOptions": {
-        "lib":[
-            "ES2021",
-            "dom",
-            "dom.iterable"
-        ]
-    }
+  "compilerOptions": {
+    "lib": [
+      "ES2021",
+      "dom",
+      "dom.iterable"
+    ]
+  }
 }
